@@ -1,0 +1,24 @@
+# Python / Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+
+# macOS / Editor
+.DS_Store
+
+# Model Weights & Training Checkpoints (exceeds GitHub file size limits)
+03_finetune/lora_adapter/
+04_merge/merged_model/
+05_finetune/lora_adapter/
+*.safetensors
+*.pt
+*.bin
+
+# Datasets, Symlinks & SQLite Databases
+01_data/*.sqlite
+01_data/*.sqlite-*
+01_data/*.jsonl
+01_data/*.csv
